@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+:root {
+    font-size: 16px;
+}
+
+
+body{
+    height: 100vh;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+header {
+   
+    height: 400px;
+    background-color: #1D539E;
+    
+    text-align: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    
+    
+
+}   
+h1 {
+    color: white;
+    padding: 100px 0 20px 0;
+}
+
+header p {
+    color: white;
+}
+
+samp {
+    text-align: center;
+}
+
+main {
+    margin-top: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: auto;
+    
+}
+
+#cad , #cad3, #corp{
+    padding: 20px 20px 0 20px;
+    width: 340px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+#cad2{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    width: 345px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+#cob{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px 10px 20px;
+    
+}
+
+
+article{
+    background-color: #FFCC29 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 76px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
+
+.preço{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.ms{
+    color: #828799;
+    font-size: 18px;
+    
+}
+.t1{
+    color: #828799;
+    font-size: 14px;
+    
+   
+}
+
+.t2{
+    padding: 20px 0 130px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    
+}
+.t22{
+    padding:20px 0 130px 0;
+}
+small{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+ion-icon {
+    color: #59CE9F;
+  }
+
+ .fr{
+    font-size: 18px;
+ } 
+ button{
+    width: 300px;
+    height: 49px;
+    border-radius: 10px;
+    border: 1px solid #1D539E;
+    font-size: 18px;
+    color: #1D539E;
+ }
+ .but{
+    background-color: #1D539E;
+    color: white;
+    
+ }
+ section:hover{
+    
+    transform: scale(1.1);
+ }
+ .fr1{
+    color: #1D539E;
+    font-size: 20px;
+    
+ }
+ .fr2{
+    background-color: #1D539E;
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px;
+    font-size: 12px;
+    width: 80px;
+    text-align: center;
+    color: white;
+
+ }
+ @media(max-width: 768px ) {
+    :root {
+        font-size: 14px;
+    }
+    body{
+        width: 100vh;
+        height: 100vh;
+
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
