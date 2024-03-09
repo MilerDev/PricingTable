@@ -1,0 +1,2 @@
+# PricingTable
+ desafio da RocketSeat 
